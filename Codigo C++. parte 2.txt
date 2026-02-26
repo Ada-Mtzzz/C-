@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+// inicio del rpograma
+{
+    int lados;
+    printf("Cuantos lados tiene tu figura \n");
+    // pide al usuario el numero de lados
+    scanf("%d", &lados);
+    // guarda el numero ingresado
+    if (lados==3)
+    // verifica si tiene tres lados
+    {
+        printf("La figura es un triangulo \n");
+        // si la figura tiene tres lados, es un triangulo
+    }
+    if (lados==4)
+    // verifica si tiene cuatro lados
+    {
+        printf("La figura es un cuadrado \n");
+        // si la figura tiene cuatro lados, es un cuadrado
+    }
+    if (lados>=5)
+    // verifica si tiene cinco o mas lados
+    {
+        printf("La figura es un poligono \n");
+        // si la figura tiene cinco o mas lados, es un poligono
+    }
+}
